@@ -2,12 +2,12 @@
 name: Report a problem
 about: This way we can identify problems and fix them
 title: 'A short description of the problem'
-labels: 'problem'
+labels: ''
 assignees: eaoui
 
 ---
 
-In this section write a clear and concise description of what the problem is. If applicable, add screenshots.
+A clear and concise description of what the problem is. If applicable, add screenshots.
 
 **Additional information**
 * Browser: [e.g. Chrome]
