@@ -1,8 +1,8 @@
 ---
 name: Report a problem
 about: This way we can identify problems and fix them
-title: ''
-labels: ''
+title: 'A short description of the problem'
+labels: 'problem'
 assignees: eaoui
 
 ---
