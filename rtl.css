@@ -1,0 +1,139 @@
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+form input[lang="en"],
+form textarea[lang="en"],
+form select[lang="en"] {
+    direction: ltr;
+}
+
+.form .input label {
+    transform-origin: top right;
+    -ms-transform: translate(-12px, 10px);
+    -webkit-transform: translate(-12px, 10px);
+    -moz-transform: translate(-12px, 10px);
+    transform: translate(-12px, 10px);
+}
+
+form .input.active label {
+    -ms-transform: translate(-24px, -12px);
+    -webkit-transform: translate(-24px, -12px);
+    -moz-transform: translate(-24px, -12px);
+    transform: translate(-24px, -12px);
+}
+
+header #menu {
+    float: right;
+    margin-left: 8px;
+    margin-right: unset;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+header #search {
+    float: left;
+}
+
+nav {
+    right: 0;
+    left: unset;
+    -ms-transform: translate(100%, 0);
+    -webkit-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+}
+
+nav ul li {
+    padding-left: 24px;
+    padding-right: unset;
+}
+
+nav ul li img,
+nav ul li svg {
+    margin-left: 8px;
+    margin-right: unset;
+}
+
+nav ul li ul {
+    margin-right: 16px;
+    margin-left: unset;
+}
+
+nav ul li a:after {
+    left: 16px;
+    right: unset;
+}
+
+.navigation-tabs li a:after {
+    margin-right: 12px;
+    margin-left: unset;
+}
+
+.navigation-tabs li a:only-child:after {
+    margin-right: 0;
+    margin-left: unset;
+}
+
+.navigation-tabs li ul li ul {
+    margin-right: 100%;
+    margin-left: unset;
+}
+
+main article .featured-image .post-category {
+    float: left;
+    border-radius: 8px 0 20px 0;
+}
+
+main article .bottom .read-more {
+    float: left;
+}
+
+main article .bottom .comment-count svg {
+    -ms-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.pagination #older-posts {
+    float: left;
+}
+
+article .post-categories {
+    text-align: left;
+}
+
+article .post-categories li {
+    margin-right: 8px;
+    margin-left: unset;
+}
+
+blockquote {
+    border-right: 4px solid #424242;
+}
+
+.comments .bubble .reply {
+    text-align: left;
+}
+
+.comments .children {
+    padding-right: 16px;
+    padding-left: unset;
+}
+
+footer .backtotop {
+    float: left;
+    margin-left: 24px;
+    margin-right: unset;
+}
+
+@media only screen and (min-width: 960px) {
+    .search-box {
+        left: 12px;
+        right: unset;
+    }
+}

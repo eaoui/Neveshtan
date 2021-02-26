@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: neveshtan\n"
+"POT-Creation-Date: 2021-02-24 17:25+0330\n"
+"PO-Revision-Date: 2021-02-24 17:25+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "Page not found"
+msgstr "صفحه پیدا نشد"
+
+#: comments.php:2
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: comments.php:2 template-parts/content/posts.php:50
+msgid "0"
+msgstr "۰"
+
+#: comments.php:2 template-parts/content/posts.php:50
+msgid "1"
+msgstr "۱"
+
+#: comments.php:8 template-parts/content/posts.php:63
+msgid "Next"
+msgstr "بعدی"
+
+#: comments.php:9 template-parts/content/posts.php:64
+msgid "Previous"
+msgstr "قبلی"
+
+#: comments.php:16
+msgid "Name"
+msgstr "نام"
+
+#: comments.php:17
+msgid "Email"
+msgstr "ایمیل"
+
+#: comments.php:18
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+#: comments.php:20
+msgid "Enter the text here."
+msgstr "متن را اینجا وارد کنید."
+
+#: comments.php:21 inc/comments-format.php:9
+msgid "You must be logged in."
+msgstr "باید وارد حساب کاربری خود شوید."
+
+#: comments.php:24
+msgid "Leave a comment"
+msgstr "افزودن دیدگاه"
+
+#: comments.php:25
+msgid "Reply to"
+msgstr "پاسخ"
+
+#: comments.php:28
+msgid "Submit"
+msgstr "ارسال"
+
+#: functions.php:9
+msgid "Hamburger Menu"
+msgstr "فهرست عمودی کشویی"
+
+#: functions.php:10
+msgid "Navigation Tabs"
+msgstr "فهرست افقی سربرگ"
+
+#: header.php:161
+msgid "Edit Profile"
+msgstr "ویرایش مشخصات"
+
+#: header.php:168
+msgid "Go to WordPress admin panel"
+msgstr "رفتن به پنل مدیریتی وردپرس"
+
+#: header.php:172
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#: header.php:177
+msgid "Log out of current account"
+msgstr "از این حساب خارج شوید"
+
+#: header.php:181
+msgid "Logout"
+msgstr "خروج"
+
+#: header.php:188
+msgid "Log in to your existing account"
+msgstr "به حساب موجود خود وارد شوید"
+
+#: header.php:192
+msgid "Login"
+msgstr "ورود"
+
+#: header.php:196
+msgid "Register a new account"
+msgstr "یک حساب جدید بسازید"
+
+#: header.php:200
+msgid "Register"
+msgstr "عضویت"
+
+#: inc/comments-format.php:7 inc/comments-format.php:8
+msgid "Reply"
+msgstr "پاسخ"
+
+#: inc/customizer.php:8
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: inc/customizer.php:11
+msgid "Header Settings"
+msgstr "تنظیمات سربرگ"
+
+#: inc/customizer.php:14
+msgid "Post Card Settings"
+msgstr "تنظیمات کارت نوشته"
+
+#: inc/customizer.php:17
+msgid "Post Settings"
+msgstr "تنظیمات نوشته"
+
+#: inc/customizer.php:20
+msgid "Footer Settings"
+msgstr "تنظیمات پابرگ"
+
+#: inc/customizer.php:30
+msgid "Theme Color"
+msgstr "رنگ پوسته"
+
+#: inc/customizer.php:32
+msgid "Brown"
+msgstr "قهوه‌ای"
+
+#: inc/customizer.php:33
+msgid "Amber"
+msgstr "نارنجی"
+
+#: inc/customizer.php:34
+msgid "Green"
+msgstr "سبز"
+
+#: inc/customizer.php:35
+msgid "Cyan"
+msgstr "فیروزه‌ای"
+
+#: inc/customizer.php:36
+msgid "Blue Grey"
+msgstr "آبی طوسی"
+
+#: inc/customizer.php:37
+msgid "Blue"
+msgstr "آبی"
+
+#: inc/customizer.php:38
+msgid "Indigo"
+msgstr "نیلی"
+
+#: inc/customizer.php:39
+msgid "Purple"
+msgstr "بنفش"
+
+#: inc/customizer.php:40
+msgid "Pink"
+msgstr "صورتی"
+
+#: inc/customizer.php:41
+msgid "Red"
+msgstr "قرمز"
+
+#: inc/customizer.php:52
+msgid "Theme Font"
+msgstr "فونت پوسته"
+
+#: inc/customizer.php:73
+msgid "Display user panel in hamburger menu."
+msgstr "پنل کاربری را داخل منوی کشویی نمایش بده."
+
+#: inc/customizer.php:74
+msgid ""
+"Guest: Login + Register<br>User: Profile + Logout<br>Admin: Profile + "
+"Dashboard + Logout"
+msgstr ""
+"مهمان: ورود + عضویت<br>کاربر: مشخصات + خروج<br>مدیر: مشخصات + پیشخوان + خروج"
+
+#: inc/customizer.php:83
+msgid "Header Position"
+msgstr "موقعیت سربرگ"
+
+#: inc/customizer.php:85
+msgid "Sticky"
+msgstr "چسبنده"
+
+#: inc/customizer.php:86
+msgid "Relative"
+msgstr "وابسته"
+
+#: inc/customizer.php:96
+msgid "Display site title."
+msgstr "عنوان سایت را نمایش بده."
+
+#: inc/customizer.php:105
+msgid "Display search section."
+msgstr "بخش جستجو را نمایش بده."
+
+#: inc/customizer.php:114
+msgid "Dispaly navigation tabs."
+msgstr "فهرست افقی سربرگ را نمایش بده."
+
+#: inc/customizer.php:123
+msgid "Display category."
+msgstr "دسته‌بندی را نمایش بده."
+
+#: inc/customizer.php:132
+msgid "Post Information"
+msgstr "اطالاعات نوشته"
+
+#: inc/customizer.php:134
+msgid "Author and Date"
+msgstr "نویسنده و تاریخ"
+
+#: inc/customizer.php:135
+msgid "Only Author"
+msgstr "فقط نویسنده"
+
+#: inc/customizer.php:136
+msgid "Only Date"
+msgstr "فقط تاریخ"
+
+#: inc/customizer.php:137
+msgid "None"
+msgstr "هیچکدام"
+
+#: inc/customizer.php:147
+msgid "Display comment's count."
+msgstr "تعداد دیدگاه‌ها را نمایش بده."
+
+#: inc/customizer.php:154
+msgid "More"
+msgstr "ادامه"
+
+#: inc/customizer.php:156
+msgid "Read More Text"
+msgstr "متن ادامه مطلب"
+
+#: inc/customizer.php:174
+msgid "Display excerpt (abstract)."
+msgstr "خلاصه را نمایش بده."
+
+#: inc/customizer.php:183
+msgid "Display tags."
+msgstr "برچسب‌ها را نمایش بده."
+
+#: inc/customizer.php:192
+msgid "Display back-to-top button."
+msgstr "دکمه بازگشت به بالا را نمایش بده."
+
+#: inc/customizer.php:201
+msgid "Footer Bottom Text"
+msgstr "متن پایین پابرگ"
+
+#: inc/customizer.php:202
+msgid ""
+"Note: If you wish to add other content types, use Widgets section instead."
+msgstr ""
+"توجه: اگر می‌خواهید محتوای دیگری قرار دهید، از بخش ابزارک‌ها استفاده کنید."
+
+#: inc/customizer.php:211
+msgid "Rmove built-in emojis."
+msgstr "شکلک‌های پیشفرض را حذف کن."
+
+#: inc/customizer.php:212
+msgid "Activate to increase speed and performance."
+msgstr "برای افزایش سرعت و کارایی فعال کنید."
+
+#: inc/widgets.php:5
+msgid "Footer - Left"
+msgstr "پابرگ - چپ"
+
+#: inc/widgets.php:9
+msgid "Footer - Center"
+msgstr "پابرگ - وسط"
+
+#: inc/widgets.php:13
+msgid "Footer - Right"
+msgstr "پابرگ - راست"
+
+#: inc/widgets.php:17
+msgid "Footer - Bottom"
+msgstr "پابرگ - پایین"
+
+#: search.php:7
+msgid "results for:"
+msgstr "نتیجه برای:"
+
+#: searchform.php:2
+msgid "Search..."
+msgstr "جستجو..."
+
+#: single.php:12 template-parts/content/posts.php:25
+msgid "By"
+msgstr "توسط"
+
+#: single.php:16 template-parts/content/posts.php:27
+msgid "in"
+msgstr "در"
+
+#: single.php:27
+msgid "Tags:"
+msgstr "برچسب‌ها:"
+
+#: template-parts/content/posts.php:19 template-parts/content/posts.php:41
+msgid "Go to post's page"
+msgstr "رفتن به صفحه نوشته"
+
+#: template-parts/content/posts.php:59
+msgid "No post"
+msgstr "بدون نوشته"
+
+#~ msgid "Try another Url."
+#~ msgstr "یک آدرس دیگر امتحان کنید."
+
+#~ msgid "Go to Dashboard"
+#~ msgstr "رفتن به پیشخوان"
+
+#~ msgid "Customize theme"
+#~ msgstr "سفارشی‌سازی پوسته"
+
+#~ msgid "Customize"
+#~ msgstr "سفارشی‌سازی"
+
+#~ msgid "No Posts"
+#~ msgstr "بدون نوشته"
+
+#~ msgid "Light Blue"
+#~ msgstr "آبی"
