@@ -1,5 +1,5 @@
 <div class="comments">
-    <h4><?php _e('Comments', 'neveshtan'); ?> (<?php comments_number(__('0', 'neveshtan'), __('1', 'neveshtan'), '%'); ?>)</h4>
+    <h4><?php esc_html_e('Comments', 'neveshtan'); ?> (<?php comments_number(__('0', 'neveshtan'), __('1', 'neveshtan'), '%'); ?>)</h4>
     <?php
     wp_list_comments('type=comment&callback=format_comment'); // This refers to function.php
     ?>

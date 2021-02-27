@@ -158,46 +158,46 @@
             <?php if (is_user_logged_in()) : ?>
                 <ul class="user-panel">
                     <li>
-                        <a href="<?php echo get_edit_profile_url(); ?>" title="<?php _e('Edit Profile', 'neveshtan'); ?>">
+                        <a href="<?php echo get_edit_profile_url(); ?>" title="<?php esc_html_e('Edit Profile', 'neveshtan'); ?>">
                             <?php echo get_avatar(wp_get_current_user()->user_id, 24); ?>
                             <?php echo wp_get_current_user()->display_name; ?>
                         </a>
                     </li>
                     <?php if (current_user_can('administrator') || current_user_can('editor') || current_user_can('author') || current_user_can('contributor')) : ?>
                         <li>
-                            <a href="<?php echo get_dashboard_url(); ?>" title="<?php _e('Go to WordPress admin panel', 'neveshtan'); ?>">
+                            <a href="<?php echo get_dashboard_url(); ?>" title="<?php esc_html_e('Go to WordPress admin panel', 'neveshtan'); ?>">
                                 <svg viewBox="0 0 24 24">
                                     <path d="M11.99 2C6.474 2 2 6.473 2 11.99c0 5.518 4.473 9.991 9.99 9.991c5.518 0 9.991-4.473 9.991-9.99c0-5.518-4.473-9.991-9.99-9.991zm-8.562 9.99c0-1.208.268-2.357.742-3.394l4.085 10.9c-2.857-1.351-4.827-4.205-4.827-7.505zm8.564 8.343a8.87 8.87 0 0 1-2.42-.339l2.57-7.273l2.63 7.024l.06.116a8.77 8.77 0 0 1-2.84.472zM13.168 8.08c.515-.027.98-.08.98-.08c.461-.053.408-.712-.053-.687c0 0-1.388.106-2.284.106c-.84 0-2.256-.106-2.256-.106c-.462-.026-.515.66-.055.688c0 0 .438.052.898.079l1.335 3.56l-1.874 5.475l-3.117-9.034c.517-.026.98-.079.98-.079c.46-.054.407-.713-.054-.688c0 0-1.387.106-2.281.106l-.551-.01c1.53-2.264 4.162-3.76 7.153-3.76c2.23 0 4.259.83 5.784 2.19l-.112-.008c-.841 0-1.437.713-1.437 1.48c0 .688.406 1.268.84 1.956c.329.557.706 1.27.706 2.3c0 .714-.28 1.542-.65 2.698l-.856 2.779l-3.096-8.965zm3.127 11.117l2.617-7.365c.49-1.19.65-2.14.65-2.987c0-.307-.02-.592-.056-.858a8.155 8.155 0 0 1 1.049 4.003c-.001 3.077-1.713 5.763-4.26 7.207z" />
                                 </svg>
-                                <?php _e('Dashboard', 'neveshtan'); ?>
+                                <?php esc_html_e('Dashboard', 'neveshtan'); ?>
                             </a>
                         </li>
                     <?php endif; ?>
                     <li>
-                        <a href="<?php echo wp_logout_url(); ?>" title="<?php _e('Log out of current account', 'neveshtan'); ?>">
+                        <a href="<?php echo wp_logout_url(); ?>" title="<?php esc_html_e('Log out of current account', 'neveshtan'); ?>">
                             <svg viewBox="0 0 24 24">
                                 <path d="M17 7l-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z" />
                             </svg>
-                            <?php _e('Logout', 'neveshtan'); ?>
+                            <?php esc_html_e('Logout', 'neveshtan'); ?>
                         </a>
                     </li>
                 </ul>
             <?php else : ?>
                 <ul class="user-panel">
                     <li>
-                        <a href="<?php echo wp_login_url(); ?>" title="<?php _e('Log in to your existing account', 'neveshtan'); ?>">
+                        <a href="<?php echo wp_login_url(); ?>" title="<?php esc_html_e('Log in to your existing account', 'neveshtan'); ?>">
                             <svg viewBox="0 0 24 24">
                                 <path d="M11,7L9.6,8.4l2.6,2.6H2v2h10.2l-2.6,2.6L11,17l5-5L11,7z M20,19h-8v2h8c1.1,0,2-0.9,2-2V5c0-1.1-0.9-2-2-2h-8v2h8V19z" />
                             </svg>
-                            <?php _e('Login', 'neveshtan'); ?>
+                            <?php esc_html_e('Login', 'neveshtan'); ?>
                         </a>
                     </li>
                     <li>
-                        <a href="<?php echo wp_registration_url(); ?>" title="<?php _e('Register a new account', 'neveshtan'); ?>">
+                        <a href="<?php echo wp_registration_url(); ?>" title="<?php esc_html_e('Register a new account', 'neveshtan'); ?>">
                             <svg viewBox="0 0 24 24">
                                 <path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
                             </svg>
-                            <?php _e('Register', 'neveshtan'); ?>
+                            <?php esc_html_e('Register', 'neveshtan'); ?>
                         </a>
                     </li>
                 </ul>

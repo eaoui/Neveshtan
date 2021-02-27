@@ -9,11 +9,11 @@ if (have_posts()) :
             <h1><?php the_title(); ?></h1>
             <div class="post-information">
                 <?php
-                _e('By', 'neveshtan');
+                esc_html_e('By', 'neveshtan');
                 echo ' ';
                 the_author_posts_link();
                 echo ' ';
-                _e('in', 'neveshtan');
+                esc_html_e('in', 'neveshtan');
                 echo ' ';
                 the_date();
                 ?>

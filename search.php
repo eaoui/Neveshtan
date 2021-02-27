@@ -4,7 +4,7 @@ get_header();
 <div class="container">
     <p><?php echo $wp_query->found_posts;
         echo ' ';
-        _e('results for:', 'neveshtan'); ?> <b><?php the_search_query(); ?></b>
+        esc_html_e('results for:', 'neveshtan'); ?> <b><?php the_search_query(); ?></b>
     </p>
 </div>
 

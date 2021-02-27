@@ -16,15 +16,15 @@
                     </div>
                 <?php endif; ?>
                 <div class="content">
-                    <a href="<?php the_permalink(); ?>" title="<?php _e('Go to post\'s page', 'neveshtan'); ?>">
+                    <a href="<?php the_permalink(); ?>" title="<?php esc_html_e('Go to post\'s page', 'neveshtan'); ?>">
                         <h3><?php the_title(); ?></h3>
                     </a>
                     <div class="post-info">
                         <?php
                         if (get_option('card_post_info') === 'both') {
-                            _e('By', 'neveshtan');
+                            esc_html_e('By', 'neveshtan');
                             echo ' ' . get_the_author_posts_link() . ' ';
-                            _e('in', 'neveshtan');
+                            esc_html_e('in', 'neveshtan');
                             echo ' ' . get_the_date();
                         } elseif (get_option('card_post_info') === 'author') {
                             echo get_the_author_posts_link();
@@ -38,7 +38,7 @@
                         <div class="bottom">
                             <?php if (get_theme_mod('display_read_more_button', true) === true) : ?>
                                 <div class="read-more">
-                                    <a href="<?php the_permalink(); ?>" title="<?php _e('Go to post\'s page', 'neveshtan'); ?>"><?php echo get_option('read_more_text'); ?></a>
+                                    <a href="<?php the_permalink(); ?>" title="<?php esc_html_e('Go to post\'s page', 'neveshtan'); ?>"><?php echo get_option('read_more_text'); ?></a>
                                 </div>
                             <?php endif; ?>
                             <?php if (get_theme_mod('display_comment_count', true) === true) : ?>
@@ -56,7 +56,7 @@
             </article>
         <?php endwhile; ?>
     <?php else : ?>
-        <p><?php _e('No post', 'neveshtan'); ?></p>
+        <p><?php esc_html_e('No post'); ?></p>
     <?php endif; ?>
 </main>
 <div class="pagination container">
