@@ -11,16 +11,16 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 * Lightweight and fast
 
 ## Installing
-1. Download the latest release from [Releases](https://github.com/eaoui/Neveshtan/releases).
+1. Download the latest release's `.zip` file from [Releases](https://github.com/eaoui/Neveshtan/releases).
 2. Open your WordPress admin panel.
-3. Go to "Appearance".
-4. Hit "Add New" button.
-5. Then hit "Upload Theme" button.
+3. Go to **Appearance**.
+4. Hit **Add New** button.
+5. Then hit **Upload Theme** button.
 6. Choose the file downloaded from the step 1.
-7. Hit "install Now" button.
-8. If successfully installed, hit activate.
+7. Hit **install Now** button.
+8. If successfully installed, hit **activate**.
 
-Done! Go to "Appearance" > "Customize" to customize it.
+Done!
 
 
 ## Contributing
@@ -33,5 +33,4 @@ Make sure to take a look at [the wiki page](https://github.com/eaoui/Neveshtan/w
 ## Demo
 
 * [Information Science Blog](https://info-sci.ir)
-
-You can add your blog here by either contributing or [emailing it](mailto:ehsanrouhi@live.com).
+* You can add your blog here by either contributing or [emailing](mailto:ehsanrouhi@live.com).
