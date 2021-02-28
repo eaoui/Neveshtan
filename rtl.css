@@ -125,6 +125,14 @@ blockquote {
     padding-left: unset;
 }
 
+footer main {
+    direction: ltr;
+}
+
+footer main section {
+    direction: rtl;
+}
+
 footer .backtotop {
     float: left;
     margin-left: 24px;
