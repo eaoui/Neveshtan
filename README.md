@@ -20,7 +20,7 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 7. Hit **install Now** button.
 8. If successfully installed, hit **activate**.
 
-Done! Go to **Appearance** > **Customize** to personalize.
+Done!
 
 
 ## Contributing
