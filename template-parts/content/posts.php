@@ -56,7 +56,7 @@
             </article>
         <?php endwhile; ?>
     <?php else : ?>
-        <p><?php esc_html_e('No post'); ?></p>
+        <p><?php esc_html_e('No post', 'neveshtan'); ?></p>
     <?php endif; ?>
 </main>
 <div class="pagination container">

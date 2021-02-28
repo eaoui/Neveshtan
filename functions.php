@@ -4,6 +4,7 @@ if (!function_exists('neveshtan_setup')) {
 
     function neveshtan_setup()
     {
+        load_theme_textdomain('neveshtan', get_template_directory() . '/languages' );
         register_nav_menus(
             array(
                 'drawer-nav-menu' => __('Hamburger Menu', 'neveshtan'),
@@ -64,8 +65,6 @@ if (get_theme_mod('remove_emoji', false) === true) {
 }
 
 show_admin_bar(false);
-
-load_theme_textdomain('neveshtan', get_template_directory_uri() . '/languages');
 
 include_once('inc/comments-format.php');
 include_once('inc/customizer.php');
