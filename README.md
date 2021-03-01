@@ -22,6 +22,12 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 
 Done!
 
+## Updating
+1. Open your WordPress admin panel.
+2. Go to **Appearance**.
+3. Activate another theme.
+4. Click on Neveshtan image and hit **Delete**.
+5. Then [install](#installing) the newer release.
 
 ## Contributing
 
@@ -33,4 +39,4 @@ Make sure to take a look at [the wiki page](https://github.com/eaoui/Neveshtan/w
 ## Demo
 
 * [Information Science Blog](https://info-sci.ir)
-* You can add your blog here by either contributing or [emailing](mailto:ehsanrouhi@live.com).
+* _You can add your blog here by either contributing or [emailing](mailto:ehsanrouhi@live.com)._
