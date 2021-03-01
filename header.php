@@ -55,14 +55,14 @@
     $fontfamily_location = get_template_directory_uri() . '/assets/font-families/' . $fontfamily . '/' . $fontfamily;
 
 
-    if (get_option('header_position') === 'relative') {
-        $header_position = 'relative';
-        $navtabs_top = '0';
-        $sb_postion = 'absolute';
-    } else {
+    if (get_option('header_position') === 'sticky') {
         $header_position = 'sticky';
         $avtabs_top = '48px';
         $sb_postion = 'fixed';
+    } else {
+        $header_position = 'relative';
+        $navtabs_top = '0';
+        $sb_postion = 'absolute';
     }
     ?>
 

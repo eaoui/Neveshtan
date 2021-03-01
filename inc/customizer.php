@@ -78,7 +78,7 @@ function neveshtan_customize_register($wp_customize)
         'slug' => 'header_position',
         'section' => 'header_settings',
         'mod' => 'option',
-        'default' => 'sticky',
+        'default' => 'relative',
         'type' => 'radio',
         'label' => __('Header Position', 'neveshtan'),
         'choices' => array(
