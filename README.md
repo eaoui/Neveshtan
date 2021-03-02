@@ -11,7 +11,7 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 * Lightweight and fast
 
 ## Installing
-1. Download a release (Nevshtan-x.y.z.zip) from [Releases](https://github.com/eaoui/Neveshtan/releases).
+1. Download a release (_Neveshtan-x.y.z.zip_) from [Releases](https://github.com/eaoui/Neveshtan/releases).
 2. Open your WordPress admin panel.
 3. Go to **Appearance**.
 4. Hit **Add New** button.
