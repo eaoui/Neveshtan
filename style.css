@@ -678,6 +678,10 @@ blockquote {
     border-left: 4px solid #424242;
 }
 
+pre {
+    overflow: auto;
+}
+
 .wp-block-code {
     display: block;
     padding: 16px;
