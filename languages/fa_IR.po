@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: neveshtan\n"
-"POT-Creation-Date: 2021-02-28 01:19+0330\n"
-"PO-Revision-Date: 2021-02-28 01:19+0330\n"
+"POT-Creation-Date: 2021-03-03 22:03+0330\n"
+"PO-Revision-Date: 2021-03-03 22:04+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -72,11 +72,11 @@ msgstr "پاسخ"
 msgid "Submit"
 msgstr "ارسال"
 
-#: functions.php:9
+#: functions.php:10
 msgid "Hamburger Menu"
 msgstr "فهرست عمودی کشویی"
 
-#: functions.php:10
+#: functions.php:11
 msgid "Navigation Tabs"
 msgstr "فهرست افقی سربرگ"
 
@@ -101,7 +101,7 @@ msgid "Logout"
 msgstr "خروج"
 
 #: header.php:188
-msgid "Log in to your existing account"
+msgid "Log into your existing account"
 msgstr "به حساب موجود خود وارد شوید"
 
 #: header.php:192

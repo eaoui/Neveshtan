@@ -172,20 +172,21 @@
                                 <?php esc_html_e('Dashboard', 'neveshtan'); ?>
                             </a>
                         </li>
+                    <?php else : ?>
+                        <li>
+                            <a href="<?php echo wp_logout_url(); ?>" title="<?php esc_html_e('Log out of current account', 'neveshtan'); ?>">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M17 7l-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z" />
+                                </svg>
+                                <?php esc_html_e('Logout', 'neveshtan'); ?>
+                            </a>
+                        </li>
                     <?php endif; ?>
-                    <li>
-                        <a href="<?php echo wp_logout_url(); ?>" title="<?php esc_html_e('Log out of current account', 'neveshtan'); ?>">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M17 7l-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z" />
-                            </svg>
-                            <?php esc_html_e('Logout', 'neveshtan'); ?>
-                        </a>
-                    </li>
                 </ul>
             <?php else : ?>
                 <ul class="user-panel">
                     <li>
-                        <a href="<?php echo wp_login_url(); ?>" title="<?php esc_html_e('Log in to your existing account', 'neveshtan'); ?>">
+                        <a href="<?php echo wp_login_url(); ?>" title="<?php esc_html_e('Log into your existing account', 'neveshtan'); ?>">
                             <svg viewBox="0 0 24 24">
                                 <path d="M11,7L9.6,8.4l2.6,2.6H2v2h10.2l-2.6,2.6L11,17l5-5L11,7z M20,19h-8v2h8c1.1,0,2-0.9,2-2V5c0-1.1-0.9-2-2-2h-8v2h8V19z" />
                             </svg>
