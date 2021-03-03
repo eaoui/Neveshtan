@@ -964,14 +964,18 @@ footer h6 {
 }
 
 @media only screen and (min-width: 960px) {
+    header {
+        padding: 12px;
+    }
     .search-box {
-        width: 240px;
-        right: 12px;
+        width: 280px;
+        right: 16px;
     }
     .search-box form input[type="search"] {
-        height: 32px;
-        font-size: 0.9rem;
-        margin: 8px 0;
+        height: 40px;
+        line-height: 40px;
+        font-size: .96rem;
+        margin: 16px 0;
         border-radius: 4px;
     }
     .search-box form input[type="search"]:hover,
