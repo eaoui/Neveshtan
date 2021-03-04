@@ -492,6 +492,10 @@ main {
     margin: 16px;
 }
 
+main.posts {
+    grid-auto-rows: 0;
+}
+
 main article {
     align-self: start;
     background-color: #fff;
