@@ -59,9 +59,9 @@ if (navigator.appVersion.indexOf('Edge') != -1) {
 function resizeMasonryItem(item) {
     let gridObject = document.getElementsByTagName('main')[0],
         rowGap = parseInt(window.getComputedStyle(gridObject).getPropertyValue('grid-row-gap')),
-        rowHeight = parseInt(window.getComputedStyle(gridObject).getPropertyValue('grid-auto-rows'));
+        itemHeightInt = Math.ceil(item.getBoundingClientRect().height);
 
-    let rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
+    let rowSpan = Math.ceil((itemHeightInt + rowGap) / rowGap);
 
     item.style.gridRowEnd = 'span ' + rowSpan;
 }
