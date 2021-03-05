@@ -999,6 +999,9 @@ footer h6 {
     main article .featured-image {
         height: 144px;
     }
+    main article.sticky .featured-image {
+        height: 288px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1016,6 +1019,9 @@ footer h6 {
     main article .featured-image {
         height: 168px;
     }
+    main article.sticky .featured-image {
+        height: 326px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -1032,6 +1038,9 @@ footer h6 {
     main article .featured-image {
         height: 192px;
     }
+    main article.sticky .featured-image {
+        height: 384px;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -1047,6 +1056,9 @@ footer h6 {
     }
     main article .featured-image {
         height: 168px;
+    }
+    main article.sticky .featured-image {
+        height: 326px;
     }
     .page {
         max-width: 1440px;
