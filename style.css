@@ -961,8 +961,7 @@ footer h6 {
         margin: 24px auto;
         max-width: 792px;
     }
-    main article .featured-image,
-    .page article .featured-image {
+    main article .featured-image {
         height: 200px;
     }
 }
@@ -1014,8 +1013,7 @@ footer h6 {
         margin: 24px auto;
         max-width: 960px;
     }
-    main article .featured-image,
-    .page article .featured-image {
+    main article .featured-image {
         height: 168px;
     }
 }
@@ -1031,8 +1029,7 @@ footer h6 {
     .page {
         max-width: 1152px;
     }
-    main article .featured-image,
-    .page article .featured-image {
+    main article .featured-image {
         height: 192px;
     }
 }
