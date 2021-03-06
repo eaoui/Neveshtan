@@ -74,11 +74,12 @@ function resizeAllMasonryItems(items) {
     }
 }
 
-let masonryEvents = ['load', 'resize'];
-masonryEvents.forEach(function(event) {
-    window.addEventListener(event, resizeAllMasonryItems('article'));
-});
+function changeView() {
+    resizeAllMasonryItems('article');
+}
 
+window.onresize = changeView;
+window.onload = changeView;
 
 const InputFloatLabel = (() => {
     // add active class and placeholder
