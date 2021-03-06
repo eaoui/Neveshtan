@@ -74,8 +74,21 @@ function resizeAllMasonryItems(items) {
     }
 }
 
+function unsetMasonry() {
+    let allItems = document.getElementsByTagName('article');
+
+    for (let i = 0; i < allItems.length; i++) {
+        allItems[i].style.gridRowEnd = 'unset';
+    }
+    document.getElementsByClassName('posts')[0].style.gridAutoRows = 'unset';
+}
+
 function changeView() {
-    resizeAllMasonryItems('article');
+    if (window.innerWidth >= 600) {
+        resizeAllMasonryItems('article');
+    } else {
+        unsetMasonry();
+    }
 }
 
 window.onresize = changeView;
