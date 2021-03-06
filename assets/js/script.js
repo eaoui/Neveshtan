@@ -55,30 +55,43 @@ if (navigator.appVersion.indexOf('Edge') != -1) {
     fixStickyElementsForEdge();
 }
 
+let posts = document.getElementsByClassName('posts')[0];
+if (typeof(posts) != 'undefined' && posts != null) {
 
-function resizeMasonryItem(item) {
-    let gridObject = document.getElementsByTagName('main')[0],
-        rowGap = parseInt(window.getComputedStyle(gridObject).getPropertyValue('grid-row-gap')),
-        rowHeight = parseInt(window.getComputedStyle(gridObject).getPropertyValue('grid-auto-rows'));
+    function resizeMasonryItem(item) {
+        let rowGap = parseInt(window.getComputedStyle(posts).getPropertyValue('grid-row-gap')),
+            itemHeightInt = Math.ceil(item.getBoundingClientRect().height / 24) * 24,
+            rowSpan = Math.floor((itemHeightInt + rowGap) / rowGap);
 
-    let rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
-
-    item.style.gridRowEnd = 'span ' + rowSpan;
-}
-
-function resizeAllMasonryItems(items) {
-    let allItems = document.getElementsByTagName(items);
-
-    for (let i = 0; i < allItems.length; i++) {
-        resizeMasonryItem(allItems[i]);
+        item.style.gridRowEnd = 'span ' + rowSpan;
     }
+
+    let gridItems = document.getElementsByTagName('article');
+
+    function setMasonry() {
+        for (let i = 0; i < gridItems.length; i++) {
+            resizeMasonryItem(gridItems[i]);
+        }
+    }
+
+    function unsetMasonry() {
+        for (let i = 0; i < gridItems.length; i++) {
+            gridItems[i].style.gridRowEnd = 'unset';
+        }
+        posts.style.gridAutoRows = 'unset';
+    }
+
+    function changeView() {
+        if (window.innerWidth >= 600) {
+            setMasonry();
+        } else {
+            unsetMasonry();
+        }
+    }
+
+    window.onresize = changeView;
+    window.onload = changeView;
 }
-
-let masonryEvents = ['load', 'resize'];
-masonryEvents.forEach(function(event) {
-    window.addEventListener(event, resizeAllMasonryItems('article'));
-});
-
 
 const InputFloatLabel = (() => {
     // add active class and placeholder
