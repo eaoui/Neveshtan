@@ -696,11 +696,12 @@ pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    color: #fafafa;
 }
 
 code {
     background-color: #37474f;
-    color: #fff;
+    color: #fafafa;
     border-radius: 4px;
     padding: 4px;
     direction: ltr;
