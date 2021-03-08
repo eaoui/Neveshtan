@@ -969,7 +969,7 @@ footer h6 {
 
 @media only screen and (min-width: 960px) {
     header {
-        padding: 12px;
+        padding: 8px 12px;
     }
     .search-box {
         width: 280px;
