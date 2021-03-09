@@ -39,4 +39,3 @@ Make sure to take a look at [the wiki page](https://github.com/eaoui/Neveshtan/w
 ## Demo
 
 * [Information Science Blog](https://info-sci.ir)
-* _You can add your blog here by either contributing or [emailing](mailto:ehsanrouhi@live.com)._
