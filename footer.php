@@ -1,5 +1,5 @@
 <footer>
-    <?php if (get_theme_mod('display_backtotop') === true) : ?>
+    <?php if (get_theme_mod('display_backtotop', true) === true) : ?>
         <svg class="backtotop" viewBox="0 0 24 24" onclick="scrollToTop()">
             <path d="M16.59 9.42L12 4.83L7.41 9.42L6 8l6-6l6 6l-1.41 1.42m0 6L12 10.83l-4.59 4.59L6 14l6-6l6 6l-1.41 1.42m0 6L12 16.83l-4.59 4.59L6 20l6-6l6 6l-1.41 1.42z" />
         </svg>
