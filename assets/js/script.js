@@ -60,7 +60,7 @@ if (typeof(posts) != 'undefined' && posts != null) {
 
     function resizeMasonryItem(item) {
         let rowGap = parseInt(window.getComputedStyle(posts).getPropertyValue('grid-row-gap')),
-            itemHeightInt = Math.ceil(item.getBoundingClientRect().height / 24) * 24,
+            itemHeightInt = Math.ceil(item.getBoundingClientRect().height / 8) * 8,
             rowSpan = Math.floor((itemHeightInt + rowGap) / rowGap);
 
         item.style.gridRowEnd = 'span ' + rowSpan;
