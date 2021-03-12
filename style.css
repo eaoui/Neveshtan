@@ -309,16 +309,8 @@ nav ul li ul li:hover {
     background-color: #eee;
 }
 
-nav ul li ul li:hover>ul {
-    display: block;
-}
-
 nav ul li:hover {
     background-color: #f5f5f5;
-}
-
-nav ul li:hover>ul {
-    display: block;
 }
 
 nav ul li a {
