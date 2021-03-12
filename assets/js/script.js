@@ -93,6 +93,17 @@ if (typeof(posts) != 'undefined' && posts != null) {
     window.onload = changeView;
 }
 
+
+let expandableMenuItems = document.getElementsByClassName('menu-item-has-children');
+
+for (let i = 0; i < expandableMenuItems.length; i++) {
+    expandableMenuItems[i].addEventListener('click', function() {
+        let subMenu = this.lastElementChild;
+        subMenu.classList.toggle('display-block');
+    });
+}
+
+
 const InputFloatLabel = (() => {
     // add active class and placeholder
     const handleFocus = (e) => {
