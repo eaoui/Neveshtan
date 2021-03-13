@@ -94,7 +94,7 @@ if (typeof(posts) != 'undefined' && posts != null) {
 }
 
 
-let expandableMenuItems = document.getElementsByClassName('menu-item-has-children');
+let expandableMenuItems = document.querySelectorAll('.menu-item-has-children, .page_item_has_children');
 
 for (let i = 0; i < expandableMenuItems.length; i++) {
     expandableMenuItems[i].firstChild.addEventListener('click', function(event) {

@@ -458,14 +458,6 @@ nav ul li a:only-child:after {
     background-color: #f5f5f5;
 }
 
-.navigation-tabs li ul li:hover>ul {
-    display: block;
-}
-
-.navigation-tabs li:hover>ul {
-    display: block;
-}
-
 .navigation-tabs .current_page_item,
 .navigation-tabs .current-menu-item {
     background-color: #F5F5F5;
