@@ -97,6 +97,9 @@ if (typeof(posts) != 'undefined' && posts != null) {
 let expandableMenuItems = document.getElementsByClassName('menu-item-has-children');
 
 for (let i = 0; i < expandableMenuItems.length; i++) {
+    expandableMenuItems[i].firstChild.addEventListener('click', function(event) {
+        event.preventDefault();
+    });
     expandableMenuItems[i].addEventListener('click', function() {
         let subMenu = this.lastElementChild;
         subMenu.classList.toggle('display-block');
