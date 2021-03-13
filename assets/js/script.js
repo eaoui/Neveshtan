@@ -102,6 +102,9 @@ for (let i = 0; i < expandableMenuItems.length; i++) {
     });
     expandableMenuItems[i].addEventListener('click', function() {
         let subMenu = this.lastElementChild;
+        subMenu.onclick = function() {
+            subMenu.classList.toggle('display-block');
+        };
         subMenu.classList.toggle('display-block');
     });
 }
