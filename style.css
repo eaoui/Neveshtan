@@ -245,7 +245,7 @@ nav {
     -moz-transform: translate(-100%, 0);
     transform: translate(-100%, 0);
     overflow-y: auto;
-    padding-top: 56px;
+    padding-top: 40px;
 }
 
 nav ul {
@@ -957,6 +957,9 @@ footer h6 {
 @media only screen and (min-width: 960px) {
     header {
         padding: 8px 12px;
+    }
+    nav {
+        padding-top: 52px;
     }
     .search-box {
         width: 280px;
