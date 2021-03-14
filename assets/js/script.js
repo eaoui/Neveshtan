@@ -3,11 +3,14 @@ function showHide(box, background) {
     document.getElementById(background).classList.toggle('display-block');
 }
 
-
 function focusOn(input) {
     document.getElementById(input).focus();
 }
 
+
+function toggleBodyScrollability() {
+    document.getElementsByTagName('body')[0].classList.toggle('avoid-scroll');
+}
 
 function toggleMenuIcon() {
     const menu_icon = document.getElementById('menu');
@@ -22,6 +25,8 @@ function toggleMenuIcon() {
         menu_graph.style.display = 'block';
         close_graph.style.display = 'none';
     }
+
+    toggleBodyScrollability();
 }
 
 
