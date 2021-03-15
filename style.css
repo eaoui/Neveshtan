@@ -328,7 +328,7 @@ nav ul li a:hover {
     background-image: url("assets/images/expand.svg");
     background-repeat: no-repeat;
     background-position: center right;
-    padding-right: 24px !important;
+    padding-right: 18px !important;
 }
 
 .search-box {
