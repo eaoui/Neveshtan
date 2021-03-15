@@ -325,14 +325,12 @@ nav ul li a:hover {
     color: #000;
 }
 
-nav ul li a:after {
-    content: "▾";
-    position: absolute;
-    right: 16px;
-}
-
-nav ul li a:only-child:after {
-    content: "";
+.menu-item-has-children a,
+.page_item_has_children a {
+    background-image: url("assets/images/expand.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 24px !important;
 }
 
 .search-box {
@@ -417,16 +415,6 @@ nav ul li a:only-child:after {
     display: block;
     padding: 0 16px;
     line-height: 40px;
-}
-
-.navigation-tabs li a:after {
-    content: "▾";
-    margin-left: 12px;
-}
-
-.navigation-tabs li a:only-child:after {
-    content: "";
-    margin-left: 0;
 }
 
 .navigation-tabs li ul {
