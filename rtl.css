@@ -47,11 +47,6 @@ nav {
     transform: translate(100%, 0);
 }
 
-nav ul li {
-    padding-left: 24px;
-    padding-right: unset;
-}
-
 nav ul li img,
 nav ul li svg {
     margin-left: 8px;
