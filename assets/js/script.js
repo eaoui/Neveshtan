@@ -104,6 +104,7 @@ let expandableMenuItems = document.querySelectorAll('.menu-item-has-children, .p
 for (let i = 0; i < expandableMenuItems.length; i++) {
     expandableMenuItems[i].firstChild.addEventListener('click', function(event) {
         event.preventDefault();
+        this.classList.toggle('add-collapse-icon')
     });
     expandableMenuItems[i].addEventListener('click', function() {
         let subMenu = this.lastElementChild;

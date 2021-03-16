@@ -886,6 +886,10 @@ footer h6 {
     overflow: hidden;
 }
 
+.add-collapse-icon {
+    background-image: url("assets/images/collapse.svg") !important;
+}
+
 @media only screen and (min-width: 400px) {
     html {
         font-size: 15px;
