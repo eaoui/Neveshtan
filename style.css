@@ -883,7 +883,7 @@ footer h6 {
 }
 
 .avoid-scroll {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .add-collapse-icon {
