@@ -421,7 +421,7 @@ nav ul li a:hover {
     background-color: #fafafa;
     margin: 0;
     padding: 0;
-    z-index: 24;
+    z-index: 14;
 }
 
 .navigation-tabs li ul li {
