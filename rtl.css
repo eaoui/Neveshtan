@@ -111,6 +111,10 @@ blockquote {
     border-right: 4px solid #424242;
 }
 
+.comments .bubble {
+    border-radius: 32px 32px 0 32px;
+}
+
 .comments .bubble .reply {
     text-align: left;
 }
@@ -118,6 +122,10 @@ blockquote {
 .comments .children {
     padding-right: 16px;
     padding-left: unset;
+}
+
+.comments form textarea {
+    border-radius: 32px 32px 32px 0;
 }
 
 footer main {
