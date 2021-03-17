@@ -9,7 +9,7 @@ form select[lang="en"] {
     direction: ltr;
 }
 
-.form .input label {
+form .input label {
     transform-origin: top right;
     -ms-transform: translate(-12px, 10px);
     -webkit-transform: translate(-12px, 10px);
