@@ -394,7 +394,7 @@ nav ul li a:hover {
 .navigation-tabs li {
     display: inline-block;
     margin: 0 4px;
-    padding: 0;
+    padding: 0 8px;
     font-size: 0.9rem;
     min-width: 64px;
     text-align: center;
@@ -411,7 +411,7 @@ nav ul li a:hover {
 .navigation-tabs li a {
     color: #616161;
     display: block;
-    padding: 0 16px;
+    padding: 0 8px;
     line-height: 40px;
 }
 
