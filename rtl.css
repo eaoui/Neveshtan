@@ -73,6 +73,11 @@ nav ul li a:after {
     margin-left: unset;
 }
 
+.navigation-tabs li ul {
+    margin-left: 0;
+    margin-right: -8px;
+}
+
 .navigation-tabs li ul li ul {
     margin-right: 100%;
     margin-left: unset;

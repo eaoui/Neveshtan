@@ -422,6 +422,7 @@ nav ul li a:hover {
     margin: 0;
     padding: 0;
     z-index: 14;
+    margin-left: -8px;
 }
 
 .navigation-tabs li ul li {
