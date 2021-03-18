@@ -434,7 +434,7 @@ nav ul li a:hover {
     display: none;
     background-color: #f5f5f5;
     top: 0;
-    margin-left: 100%;
+    left: 100%;
 }
 
 .navigation-tabs li ul li ul li:hover {

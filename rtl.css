@@ -79,8 +79,8 @@ nav ul li a:after {
 }
 
 .navigation-tabs li ul li ul {
-    margin-right: 100%;
-    margin-left: unset;
+    right: 100%;
+    left: unset;
 }
 
 main article .featured-image .post-category {
