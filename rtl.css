@@ -70,11 +70,6 @@ nav ul li a:after {
     padding-right: 8px;
 }
 
-nav ul .menu-item-has-children a:not(:last-child),
-nav ul .page_item_has_children a:not(:last-child) {
-    padding-right: 16px;
-}
-
 .navigation-tabs li a:after {
     margin-right: 12px;
     margin-left: unset;
