@@ -68,6 +68,13 @@ nav ul li a:after {
     margin-left: unset;
 }
 
+.menu-item-has-children a:not(:last-child),
+.page_item_has_children a:not(:last-child) {
+    background-position: center left;
+    padding-left: 20px !important;
+    padding-right: 8px;
+}
+
 .navigation-tabs li a:only-child:after {
     margin-right: 0;
     margin-left: unset;
