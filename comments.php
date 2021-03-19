@@ -15,7 +15,7 @@
             'fields' => array(
                 'author' => '<div class="input"><label for="author">' . __('Name', 'neveshtan') . ' *</label><input id="author" name="author" type="text" value="" size="30" maxlength="245" required></div>',
                 'emial' => '<div class="input"><label for="email">' . __('Email', 'neveshtan') . ' *</label><input id="email" name="email" type="email" value="" size="30" maxlength="100" lang="en" required></div>',
-                'cookies' => '<div><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">' . __('Remember me', 'neveshtan') . '</label></div>'
+                'cookies' => '<div class="checkbox"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">' . __('Remember me', 'neveshtan') . '</label></div>'
             ),
             'comment_field' => '<div><textarea id="comment" name="comment" placeholder="' . __('Enter the text here.', 'neveshtan') . '" required></textarea></div>',
             'must_log_in' => __('You must be logged in.', 'neveshtan'),
