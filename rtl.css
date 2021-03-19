@@ -63,16 +63,21 @@ nav ul li a:after {
     right: unset;
 }
 
-.navigation-tabs li a:after {
-    margin-right: 12px;
-    margin-left: unset;
-}
-
 .menu-item-has-children a:not(:last-child),
 .page_item_has_children a:not(:last-child) {
     background-position: center left;
     padding-left: 20px !important;
     padding-right: 8px;
+}
+
+nav ul .menu-item-has-children a:not(:last-child),
+nav ul .page_item_has_children a:not(:last-child) {
+    padding-right: 16px;
+}
+
+.navigation-tabs li a:after {
+    margin-right: 12px;
+    margin-left: unset;
 }
 
 .navigation-tabs li a:only-child:after {
