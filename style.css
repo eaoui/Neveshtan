@@ -273,7 +273,7 @@ nav ul .current_page_item a {
 
 nav ul li {
     display: block;
-    padding: 0 8px;
+    padding: 0 12px;
 }
 
 nav ul li img {
@@ -320,7 +320,7 @@ nav ul li a {
     line-height: 48px;
     font-size: 0.96rem;
     color: #424242;
-    padding: 0 16px;
+    padding: 0 4px;
     display: block;
 }
 
