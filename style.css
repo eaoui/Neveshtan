@@ -958,6 +958,9 @@ footer h6 {
     header {
         padding: 8px 12px;
     }
+    header #menu {
+        margin-right: 24px;
+    }
     nav {
         padding-top: 52px;
     }

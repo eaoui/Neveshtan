@@ -155,6 +155,10 @@ footer .backtotop {
 }
 
 @media only screen and (min-width: 960px) {
+    header #menu {
+        margin-left: 24px;
+        margin-right: unset;
+    }
     .search-box {
         left: 16px;
         right: unset;
