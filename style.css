@@ -513,6 +513,10 @@ main article .featured-image .post-category {
     min-width: 96px;
     text-align: center;
     border-radius: 0 8px 0 20px;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 main article .featured-image .post-category:hover {
