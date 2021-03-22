@@ -103,15 +103,26 @@ let expandableMenuItems = document.querySelectorAll('.menu-item-has-children, .p
 
 for (let i = 0; i < expandableMenuItems.length; i++) {
     expandableMenuItems[i].addEventListener('click', function(event) {
+
         event.preventDefault();
-        this.firstChild.classList.toggle('add-collapse-icon')
-    });
-    expandableMenuItems[i].addEventListener('click', function() {
+
         let subMenu = this.lastElementChild;
-        subMenu.onclick = function() {
+
+        function toggleSubMenu() {
             subMenu.classList.toggle('display-block');
+        }
+
+        function toggleDropdownIcon() {
+            expandableMenuItems[i].firstChild.classList.toggle('add-collapse-icon');
+        }
+
+        subMenu.onclick = function() {
+            toggleSubMenu();
+            toggleDropdownIcon();
         };
-        subMenu.classList.toggle('display-block');
+        toggleSubMenu();
+        toggleDropdownIcon();
+
     });
 }
 
