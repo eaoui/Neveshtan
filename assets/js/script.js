@@ -103,18 +103,26 @@ let expandableMenuItems = document.querySelectorAll('.menu-item-has-children, .p
 
 for (let i = 0; i < expandableMenuItems.length; i++) {
     expandableMenuItems[i].addEventListener('click', function(event) {
+
         event.preventDefault();
-    });
-    expandableMenuItems[i].addEventListener('click', function() {
+
         let subMenu = this.lastElementChild;
-        let hyperLink = this.firstChild;
+
+        function toggleSubMenu() {
+            subMenu.classList.toggle('display-block');
+        }
+
+        function toggleDropdownIcon() {
+            expandableMenuItems[i].firstChild.classList.toggle('add-collapse-icon');
+        }
 
         subMenu.onclick = function() {
-            subMenu.classList.toggle('display-block');
-            hyperLink.classList.toggle('add-collapse-icon');
+            toggleSubMenu();
+            toggleDropdownIcon();
         };
-        subMenu.classList.toggle('display-block');
-        hyperLink.classList.toggle('add-collapse-icon');
+        toggleSubMenu();
+        toggleDropdownIcon();
+
     });
 }
 
