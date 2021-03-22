@@ -104,14 +104,17 @@ let expandableMenuItems = document.querySelectorAll('.menu-item-has-children, .p
 for (let i = 0; i < expandableMenuItems.length; i++) {
     expandableMenuItems[i].addEventListener('click', function(event) {
         event.preventDefault();
-        this.firstChild.classList.toggle('add-collapse-icon')
     });
     expandableMenuItems[i].addEventListener('click', function() {
         let subMenu = this.lastElementChild;
+        let hyperLink = this.firstChild;
+
         subMenu.onclick = function() {
             subMenu.classList.toggle('display-block');
+            hyperLink.classList.toggle('add-collapse-icon');
         };
         subMenu.classList.toggle('display-block');
+        hyperLink.classList.toggle('add-collapse-icon');
     });
 }
 
