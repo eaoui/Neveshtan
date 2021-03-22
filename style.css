@@ -218,7 +218,7 @@ header #search:hover {
 
 header #menu {
     float: left;
-    margin-right: 8px;
+    margin-right: 12px;
     width: 24px;
     height: 24px;
 }
@@ -972,6 +972,9 @@ footer h6 {
 @media only screen and (min-width: 960px) {
     header {
         padding: 8px 12px;
+    }
+    header #menu {
+        margin-right: 24px;
     }
     nav {
         padding-top: 52px;
