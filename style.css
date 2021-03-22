@@ -416,10 +416,6 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.navigation-tabs li:hover {
-    background-color: #f5f5f5;
-}
-
 .navigation-tabs li:hover a {
     color: #2196f3;
 }
