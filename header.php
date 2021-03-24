@@ -57,12 +57,8 @@
 
     if (get_option('header_position') === 'sticky') {
         $header_position = 'sticky';
-        $avtabs_top = '48px';
-        $sb_postion = 'fixed';
     } else {
         $header_position = 'relative';
-        $navtabs_top = '0';
-        $sb_postion = 'absolute';
     }
     ?>
 
@@ -89,10 +85,6 @@
         header {
             background-color: <?php echo $darkcolor; ?>;
             position: <?php echo $header_position; ?> !important;
-        }
-
-        .search-box {
-            position: <?php echo $sb_postion; ?> !important;
         }
 
         header h2 {
