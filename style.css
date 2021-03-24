@@ -352,7 +352,7 @@ nav ul li a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 20;
     -ms-transform: translate(0, -100%);
