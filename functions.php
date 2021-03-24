@@ -64,8 +64,6 @@ if (get_theme_mod('remove_emoji', false) === true) {
     remove_action('admin_print_styles', 'print_emoji_styles');
 }
 
-show_admin_bar(false);
-
 include_once('inc/comments-format.php');
 include_once('inc/customizer.php');
 include_once('inc/primary-category.php');
