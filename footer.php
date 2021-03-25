@@ -23,6 +23,15 @@
 
 <?php wp_footer(); ?>
 
+<script>
+    const adminBar = document.getElementById('wpadminbar');
+    if (typeof(adminBar) != 'undefined' && adminBar != null) {
+        document.getElementsByTagName('nav')[0].style.paddingTop = '80px';
+    } else {
+        window.alert('no');
+    }
+</script>
+
 </body>
 
 </html>
