@@ -912,10 +912,6 @@ footer h6 {
     background-image: url("assets/images/collapse.svg") !important;
 }
 
-#wpadminbar {
-    z-index: 17 !important;
-}
-
 @media only screen and (min-width: 400px) {
     html {
         font-size: 15px;
