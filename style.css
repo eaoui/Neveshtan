@@ -178,7 +178,7 @@ header a {
     display: inline-block;
 }
 
-header h2 {
+header .site-title {
     display: inline-block;
     margin: auto;
     padding: 0;

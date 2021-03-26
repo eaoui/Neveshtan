@@ -89,7 +89,7 @@
             position: <?php echo $header_position; ?> !important;
         }
 
-        header h2 {
+        header .site-title {
             color: <?php echo $lightcolor; ?>;
         }
 
@@ -131,8 +131,8 @@
         }
         ?>
         <?php if (get_theme_mod('display_title', true) === true) : ?>
-            <a href="<?php echo esc_url(home_url()) ?>" title="<?php bloginfo('description'); ?>">
-                <h2><?php bloginfo('name'); ?></h2>
+            <a class="site-title" href="<?php echo esc_url(home_url()) ?>" title="<?php bloginfo('description'); ?>">
+                <?php bloginfo('name'); ?>
             </a>
         <?php endif; ?>
         <svg id="menu" viewBox="0 0 24 24" onclick="showHide('navigation-drawer', 'nav-back'); toggleMenuIcon();">
