@@ -238,7 +238,7 @@ header .custom-logo {
     padding: 6px 8px;
 }
 
-nav {
+.nav-drawer {
     visibility: hidden;
     position: fixed;
     top: 0;
@@ -264,7 +264,7 @@ nav {
     padding-top: 40px;
 }
 
-nav ul {
+.nav-drawer ul {
     list-style: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -273,27 +273,27 @@ nav ul {
     margin: 0;
 }
 
-nav ul.user-panel {
+.nav-drawer ul.user-panel {
     border-bottom: 1px solid #e0e0e0;
 }
 
-nav ul .current-menu-item a,
-nav ul .current_page_item a {
+.nav-drawer ul .current-menu-item a,
+.nav-drawer ul .current_page_item a {
     opacity: 0.5;
 }
 
-nav ul li {
+.nav-drawer ul li {
     display: block;
     padding: 0 12px;
 }
 
-nav ul li img {
+.nav-drawer ul li img {
     vertical-align: middle;
     border-radius: 100%;
     margin-right: 8px;
 }
 
-nav ul li svg {
+.nav-drawer ul li svg {
     vertical-align: middle;
     width: 24px;
     height: 24px;
@@ -301,33 +301,33 @@ nav ul li svg {
     margin-right: 8px;
 }
 
-nav ul li ul {
+.nav-drawer ul li ul {
     display: none;
     background-color: #f5f5f5;
 }
 
-nav ul li ul li {
+.nav-drawer ul li ul li {
     display: block;
 }
 
-nav ul li ul li ul {
+.nav-drawer ul li ul li ul {
     display: none;
     background-color: #eee;
 }
 
-nav ul li ul li ul li:hover {
+.nav-drawer ul li ul li ul li:hover {
     background-color: #e0e0e0;
 }
 
-nav ul li ul li:hover {
+.nav-drawer ul li ul li:hover {
     background-color: #eee;
 }
 
-nav ul li:hover {
+.nav-drawer ul li:hover {
     background-color: #f5f5f5;
 }
 
-nav ul li a {
+.nav-drawer ul li a {
     line-height: 48px;
     font-size: 0.96rem;
     color: #424242;
@@ -335,7 +335,7 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:hover {
+.nav-drawer ul li a:hover {
     color: #000;
 }
 
@@ -977,7 +977,7 @@ footer h6 {
     header #menu {
         margin-right: 24px;
     }
-    nav {
+    .nav-drawer {
         padding-top: 52px;
     }
     .search-box {

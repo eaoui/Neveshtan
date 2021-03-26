@@ -154,7 +154,7 @@
             </div>
         <?php endif; ?>
     </header>
-    <nav id="navigation-drawer">
+    <nav class="nav-drawer" id="navigation-drawer">
         <?php if (get_theme_mod('display_user_panel', true) === true) : ?>
             <?php if (is_user_logged_in()) : ?>
                 <ul class="user-panel">
