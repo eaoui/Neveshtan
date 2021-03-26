@@ -389,7 +389,7 @@ header .custom-logo {
     display: none;
 }
 
-.navigation-tabs {
+.nav-tabs {
     list-style: none;
     top: 48px;
     z-index: 14;
@@ -403,11 +403,11 @@ header .custom-logo {
     scrollbar-width: none;
 }
 
-.navigation-tabs::-webkit-scrollbar {
+.nav-tabs::-webkit-scrollbar {
     display: none;
 }
 
-.navigation-tabs li {
+.nav-tabs li {
     display: inline-block;
     margin: 0 4px;
     padding: 0 8px;
@@ -416,18 +416,18 @@ header .custom-logo {
     text-align: center;
 }
 
-.navigation-tabs li:hover a {
+.nav-tabs li:hover a {
     color: #2196f3;
 }
 
-.navigation-tabs li a {
+.nav-tabs li a {
     color: #616161;
     display: block;
     padding: 0 8px;
     line-height: 40px;
 }
 
-.navigation-tabs li ul {
+.nav-tabs li ul {
     display: none;
     position: absolute;
     background-color: #fafafa;
@@ -437,33 +437,33 @@ header .custom-logo {
     margin-left: -8px;
 }
 
-.navigation-tabs li ul li {
+.nav-tabs li ul li {
     display: block;
     margin: 0;
 }
 
-.navigation-tabs li ul li ul {
+.nav-tabs li ul li ul {
     display: none;
     background-color: #f5f5f5;
     top: 0;
     left: 100%;
 }
 
-.navigation-tabs li ul li ul li:hover {
+.nav-tabs li ul li ul li:hover {
     background-color: #eee;
 }
 
-.navigation-tabs li ul li:hover {
+.nav-tabs li ul li:hover {
     background-color: #f5f5f5;
 }
 
-.navigation-tabs .current_page_item,
-.navigation-tabs .current-menu-item {
+.nav-tabs .current_page_item,
+.nav-tabs .current-menu-item {
     background-color: #F5F5F5;
 }
 
-.navigation-tabs .current_page_item a,
-.navigation-tabs .current-menu-item a {
+.nav-tabs .current_page_item a,
+.nav-tabs .current-menu-item a {
     color: #212121;
 }
 
