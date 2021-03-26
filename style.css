@@ -193,7 +193,7 @@ header .site-title {
     transition: all 0.3s;
 }
 
-header h2:hover {
+header .site-title:hover {
     color: #fff;
 }
 
