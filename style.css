@@ -389,18 +389,21 @@ header .custom-logo {
     display: none;
 }
 
-.nav-tabs ul {
-    list-style: none;
-    top: 48px;
-    z-index: 14;
-    background-color: #eee;
-    padding: 0 48px;
-    margin: 0;
+.nav-tabs {
     overflow-x: auto;
     white-space: nowrap;
     text-align: center;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    top: 48px;
+}
+
+.nav-tabs ul {
+    list-style: none;
+    z-index: 14;
+    background-color: #eee;
+    padding: 0 48px;
+    margin: 0;
 }
 
 .nav-tabs ul::-webkit-scrollbar {
