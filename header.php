@@ -57,10 +57,8 @@
 
     if (get_option('header_position') === 'sticky') {
         $header_position = 'sticky';
-        $wpadminbar_zindex = '17';
     } else {
         $header_position = 'relative';
-        $wpadminbar_zindex = '99999';
     }
     ?>
 
@@ -114,10 +112,6 @@
 
         footer h6 {
             color: <?php echo $lightcolor; ?>;
-        }
-
-        #wpadminbar {
-            z-index: <?php echo $wpadminbar_zindex; ?>;
         }
     </style>
 
