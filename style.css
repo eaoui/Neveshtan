@@ -241,9 +241,9 @@ header .custom-logo {
 .nav-drawer {
     visibility: hidden;
     position: fixed;
-    top: 0;
+    top: 48px;
     left: 0;
-    height: 100%;
+    height: calc(100% - 48px);
     background-color: #fafafa;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -261,7 +261,6 @@ header .custom-logo {
     -moz-transform: translate(-100%, 0);
     transform: translate(-100%, 0);
     overflow-y: auto;
-    padding-top: 40px;
 }
 
 .nav-drawer ul {
@@ -981,7 +980,8 @@ footer h6 {
         margin-right: 24px;
     }
     .nav-drawer {
-        padding-top: 52px;
+        top: 64px;
+        height: calc(100% - 64px);
     }
     .search-box {
         width: 280px;
