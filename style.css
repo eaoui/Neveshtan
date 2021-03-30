@@ -1058,12 +1058,12 @@ footer h6 {
 }
 
 .relative {
-    position: relative;
-    top: auto;
+    position: relative !important;
+    top: auto !important;
 }
 
 .transform {
-    visibility: visible;
+    visibility: visible !important;
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -1071,7 +1071,7 @@ footer h6 {
 }
 
 .display-block {
-    display: block;
+    display: block !important;
 }
 
 .avoid-scroll {
@@ -1079,7 +1079,7 @@ footer h6 {
 }
 
 .add-collapse-icon {
-    background-image: url("assets/images/collapse.svg");
+    background-image: url("assets/images/collapse.svg") !important;
 }
 
 #wpadminbar {
