@@ -395,14 +395,15 @@ header .custom-logo {
     -ms-overflow-style: none;
     scrollbar-width: none;
     top: 48px;
+    background-color: #eee;
+    padding: 0 48px;
+    z-index: 14;
 }
 
 .nav-tabs ul {
     list-style: none;
-    z-index: 14;
-    background-color: #eee;
-    padding: 0 48px;
     margin: 0;
+    padding: 0;
 }
 
 .nav-tabs ul::-webkit-scrollbar {
