@@ -38,7 +38,7 @@ header #search {
     float: left;
 }
 
-nav {
+.nav-drawer {
     right: 0;
     left: unset;
     -ms-transform: translate(100%, 0);
@@ -47,18 +47,18 @@ nav {
     transform: translate(100%, 0);
 }
 
-nav ul li img,
-nav ul li svg {
+.nav-drawer ul li img,
+.nav-drawer ul li svg {
     margin-left: 8px;
     margin-right: unset;
 }
 
-nav ul li ul {
+.nav-drawer ul li ul {
     margin-right: 16px;
     margin-left: unset;
 }
 
-nav ul li a:after {
+.nav-drawer ul li a:after {
     left: 16px;
     right: unset;
 }
@@ -70,22 +70,22 @@ nav ul li a:after {
     padding-right: 8px;
 }
 
-.navigation-tabs li a:after {
+.nav-tabs ul li a:after {
     margin-right: 12px;
     margin-left: unset;
 }
 
-.navigation-tabs li a:only-child:after {
+.nav-tabs ul li a:only-child:after {
     margin-right: 0;
     margin-left: unset;
 }
 
-.navigation-tabs li ul {
+.nav-tabs ul li ul {
     margin-left: 0;
     margin-right: -8px;
 }
 
-.navigation-tabs li ul li ul {
+.nav-tabs ul li ul li ul {
     right: 100%;
     left: unset;
 }
