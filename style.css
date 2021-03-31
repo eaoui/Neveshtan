@@ -925,9 +925,6 @@ footer h6 {
 }
 
 @media only screen and (min-width: 960px) {
-    body {
-        overflow-y: auto !important;
-    }
     header {
         padding: 8px 12px;
     }
@@ -1071,7 +1068,7 @@ footer h6 {
 }
 
 .avoid-scroll {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .add-collapse-icon {
