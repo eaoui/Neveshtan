@@ -70,22 +70,22 @@ header #search {
     padding-right: 8px;
 }
 
-.nav-tabs ul li a:after {
+.nav-tabs li a:after {
     margin-right: 12px;
     margin-left: unset;
 }
 
-.nav-tabs ul li a:only-child:after {
+.nav-tabs li a:only-child:after {
     margin-right: 0;
     margin-left: unset;
 }
 
-.nav-tabs ul li ul {
+.nav-tabs li ul {
     margin-left: 0;
     margin-right: -8px;
 }
 
-.nav-tabs ul li ul li ul {
+.nav-tabs li ul li ul {
     right: 100%;
     left: unset;
 }
