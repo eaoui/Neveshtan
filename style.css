@@ -389,6 +389,8 @@ header .custom-logo {
 }
 
 .nav-tabs {
+    list-style: none;
+    margin: 0;
     overflow-x: auto;
     white-space: nowrap;
     text-align: center;
@@ -400,17 +402,11 @@ header .custom-logo {
     z-index: 14;
 }
 
-.nav-tabs ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-tabs ul::-webkit-scrollbar {
+.nav-tabs::-webkit-scrollbar {
     display: none;
 }
 
-.nav-tabs ul li {
+.nav-tabs li {
     display: inline-block;
     margin: 0 4px;
     padding: 0 8px;
@@ -419,18 +415,18 @@ header .custom-logo {
     text-align: center;
 }
 
-.nav-tabs ul li:hover a {
+.nav-tabs li:hover a {
     color: #2196f3;
 }
 
-.nav-tabs ul li a {
+.nav-tabs li a {
     color: #616161;
     display: block;
     padding: 0 8px;
     line-height: 40px;
 }
 
-.nav-tabs ul li ul {
+.nav-tabs li ul {
     display: none;
     position: absolute;
     background-color: #fafafa;
@@ -440,33 +436,33 @@ header .custom-logo {
     margin-left: -8px;
 }
 
-.nav-tabs ul li ul li {
+.nav-tabs li ul li {
     display: block;
     margin: 0;
 }
 
-.nav-tabs ul li ul li ul {
+.nav-tabs li ul li ul {
     display: none;
     background-color: #f5f5f5;
     top: 0;
     left: 100%;
 }
 
-.nav-tabs ul li ul li ul li:hover {
+.nav-tabs li ul li ul li:hover {
     background-color: #eee;
 }
 
-.nav-tabs ul li ul li:hover {
+.nav-tabs li ul li:hover {
     background-color: #f5f5f5;
 }
 
-.nav-tabs ul .current_page_item,
-.nav-tabs ul .current-menu-item {
+.nav-tabs .current_page_item,
+.nav-tabs .current-menu-item {
     background-color: #F5F5F5;
 }
 
-.nav-tabs ul .current_page_item a,
-.nav-tabs ul .current-menu-item a {
+.nav-tabs .current_page_item a,
+.nav-tabs .current-menu-item a {
     color: #212121;
 }
 
