@@ -19,11 +19,11 @@ function toggleMenuIcon() {
 
     menu_icon.classList.toggle('display-close-icon');
     if (menu_icon.classList.contains('display-close-icon')) {
-        menu_graph.style.display = 'none';
-        close_graph.style.display = 'block';
+        menu_graph.style.opacity = '0';
+        close_graph.style.opacity = '1';
     } else {
-        menu_graph.style.display = 'block';
-        close_graph.style.display = 'none';
+        menu_graph.style.opacity = '1';
+        close_graph.style.opacity = '0';
     }
 
     toggleBodyScrollability();
