@@ -23,8 +23,8 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 Done!
 
 ## Updating
-1. [install](#installing) the new theme.
-2. **Delete** the other version.
+1. **[install](#installing)** and **activate** the newer release.
+2. **Delete** the older release.
 
 ## Contributing
 
