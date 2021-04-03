@@ -415,7 +415,7 @@ header .custom-logo {
     text-align: center;
 }
 
-.nav-tabs li:hover a {
+.nav-tabs li a:hover {
     color: #2196f3;
 }
 
