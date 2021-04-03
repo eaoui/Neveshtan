@@ -413,10 +413,10 @@ header .custom-logo {
     font-size: 0.9rem;
     min-width: 64px;
     text-align: center;
-}
-
-.nav-tabs li a:hover {
-    color: #2196f3;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .nav-tabs li a {
@@ -424,6 +424,14 @@ header .custom-logo {
     display: block;
     padding: 0 8px;
     line-height: 40px;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.nav-tabs li a:hover {
+    color: #2196f3;
 }
 
 .nav-tabs li ul {
