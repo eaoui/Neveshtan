@@ -455,6 +455,7 @@ header .custom-logo {
     background-color: #f5f5f5;
     top: 0;
     left: 100%;
+    margin: 0;
 }
 
 .nav-tabs li ul li ul li:hover {
