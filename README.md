@@ -35,4 +35,6 @@ Make sure to take a look at [the wiki page](https://github.com/eaoui/Neveshtan/w
 
 ## Demo
 
+### Persian
+
 * [Information Science Blog](https://info-sci.ir)
