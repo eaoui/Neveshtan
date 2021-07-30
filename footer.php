@@ -21,6 +21,27 @@
     </div>
 </footer>
 
+<?php
+$fontfamily = get_option('font_family', 'Roboto');
+$fontfamily_location = get_template_directory_uri() . '/assets/font-families/' . $fontfamily . '/' . $fontfamily;
+?>
+
+<style>
+    @font-face {
+        font-family: 'SelectedFontFamily';
+        font-weight: normal;
+        src: url("<?php echo $fontfamily_location; ?>.eot") format('embedded-opefilenametype'), url("<?php echo $fontfamily_location; ?>.woff2") format('woff2'), url("<?php echo $fontfamily_location; ?>.woff") format('woff'), url("<?php echo $fontfamily_location; ?>.ttf") format('truetype');
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'SelectedFontFamily';
+        font-weight: bold;
+        src: url("<?php echo $fontfamily_location; ?>-Bold.eot") format('embedded-opefilenametype'), url("<?php echo $fontfamily_location; ?>-Bold.woff2") format('woff2'), url("<?php echo $fontfamily_location; ?>-Bold.woff") format('woff'), url("<?php echo $fontfamily_location; ?>-Bold.ttf") format('truetype');
+        font-display: swap;
+    }
+</style>
+
 <?php wp_footer(); ?>
 
 <script>
