@@ -786,7 +786,6 @@ figcaption {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 384px;
-    min-width: 248px;
     border: 2px solid #9e9e9e;
     padding: 16px 16px;
     border-radius: 32px 32px 0 32px;
