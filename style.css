@@ -668,6 +668,11 @@ article .post-categories li:hover {
     opacity: 1;
 }
 
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
 blockquote {
     font-size: 1.1rem;
     color: #757575;
