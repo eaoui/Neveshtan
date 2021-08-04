@@ -685,6 +685,11 @@ pre {
     overflow: auto;
 }
 
+.alignright {
+    text-align: right;
+    margin-left: auto;
+}
+
 .wp-block-code {
     display: block;
     padding: 16px;
