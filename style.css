@@ -894,6 +894,14 @@ footer h6 {
     color: #fafafa;
 }
 
+footer .wp-block-latest-comments {
+    padding: 0;
+}
+
+footer article footer {
+    padding: 16px;
+}
+
 @media only screen and (min-width: 400px) {
     html {
         font-size: 15px;
