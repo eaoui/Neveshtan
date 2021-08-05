@@ -752,6 +752,7 @@ figcaption {
     color: #757575;
     font-size: 0.7rem;
     margin: 8px 0;
+    line-height: 32px;
 }
 
 .comments .comment-info img {
@@ -763,9 +764,8 @@ figcaption {
 }
 
 .comments .comment-info strong {
-    display: inline-block;
     font-size: 0.9rem;
-    vertical-align: middle;
+    line-height: 32px;
 }
 
 .comments .children {

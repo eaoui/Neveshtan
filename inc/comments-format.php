@@ -14,5 +14,6 @@ function format_comment($args, $comment)
     echo '<div class="bubble"><p>' . get_comment_text() .
         '</p><div class="reply">' . $commnets_reply .
         '</div></div><div class="comment-info"><strong>' . get_comment_author() .
-        '</strong> ' . get_comment_date() . ' - ' . get_comment_time();
+        '</strong> ' . get_comment_date() . ' - ' . get_comment_time() .
+        '</div>';
 }
