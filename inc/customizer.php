@@ -25,7 +25,7 @@ function neveshtan_customize_register($wp_customize)
         'slug' => 'color_scheme',
         'section' => 'general_settings',
         'mod' => 'option',
-        'default' => 'blue_gray',
+        'default' => 'blue_grey',
         'type' => 'select',
         'label' => __('Theme Color', 'neveshtan'),
         'choices' => array(
