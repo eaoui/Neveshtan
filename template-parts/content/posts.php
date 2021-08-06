@@ -38,7 +38,7 @@
                         <div class="bottom">
                             <?php if (get_theme_mod('display_read_more_button', true) === true) : ?>
                                 <div class="read-more">
-                                    <a href="<?php the_permalink(); ?>" title="<?php esc_html_e('Go to post\'s page', 'neveshtan'); ?>"><?php echo get_option('read_more_text'); ?></a>
+                                    <a href="<?php the_permalink(); ?>" title="<?php esc_html_e('Go to post\'s page', 'neveshtan'); ?>"><?php echo get_option('read_more_text', __('More', 'neveshtan')); ?></a>
                                 </div>
                             <?php endif; ?>
                             <?php if (get_theme_mod('display_comment_count', true) === true) : ?>
