@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: neveshtan\n"
-"POT-Creation-Date: 2021-03-03 22:03+0330\n"
-"PO-Revision-Date: 2021-03-03 22:04+0330\n"
+"POT-Creation-Date: 2021-08-06 06:32+0430\n"
+"PO-Revision-Date: 2021-08-06 06:32+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -80,39 +80,39 @@ msgstr "فهرست عمودی کشویی"
 msgid "Navigation Tabs"
 msgstr "فهرست افقی سربرگ"
 
-#: header.php:161
+#: header.php:138
 msgid "Edit Profile"
 msgstr "ویرایش مشخصات"
 
-#: header.php:168
+#: header.php:145
 msgid "Go to WordPress admin panel"
 msgstr "رفتن به پنل مدیریتی وردپرس"
 
-#: header.php:172
+#: header.php:149
 msgid "Dashboard"
 msgstr "پیشخوان"
 
-#: header.php:177
+#: header.php:154
 msgid "Log out of current account"
 msgstr "از این حساب خارج شوید"
 
-#: header.php:181
+#: header.php:158
 msgid "Logout"
 msgstr "خروج"
 
-#: header.php:188
+#: header.php:166
 msgid "Log into your existing account"
 msgstr "به حساب موجود خود وارد شوید"
 
-#: header.php:192
+#: header.php:170
 msgid "Login"
 msgstr "ورود"
 
-#: header.php:196
+#: header.php:174
 msgid "Register a new account"
 msgstr "یک حساب جدید بسازید"
 
-#: header.php:200
+#: header.php:178
 msgid "Register"
 msgstr "عضویت"
 
@@ -192,100 +192,95 @@ msgstr "فونت پوسته"
 msgid "Display user panel in hamburger menu."
 msgstr "پنل کاربری را داخل منوی کشویی نمایش بده."
 
-#: inc/customizer.php:74
-msgid ""
-"Guest: Login + Register<br>User: Profile + Logout<br>Admin: Profile + "
-"Dashboard + Logout"
-msgstr ""
-"مهمان: ورود + عضویت<br>کاربر: مشخصات + خروج<br>مدیر: مشخصات + پیشخوان + خروج"
-
-#: inc/customizer.php:83
+#: inc/customizer.php:82
 msgid "Header Position"
 msgstr "موقعیت سربرگ"
 
-#: inc/customizer.php:85
+#: inc/customizer.php:84
 msgid "Sticky"
 msgstr "چسبنده"
 
-#: inc/customizer.php:86
+#: inc/customizer.php:85
 msgid "Relative"
 msgstr "وابسته"
 
-#: inc/customizer.php:96
+#: inc/customizer.php:95
 msgid "Display site title."
 msgstr "عنوان سایت را نمایش بده."
 
-#: inc/customizer.php:105
+#: inc/customizer.php:104
 msgid "Display search section."
 msgstr "بخش جستجو را نمایش بده."
 
-#: inc/customizer.php:114
+#: inc/customizer.php:113
 msgid "Dispaly navigation tabs."
 msgstr "فهرست افقی سربرگ را نمایش بده."
 
-#: inc/customizer.php:123
+#: inc/customizer.php:122
 msgid "Display category."
 msgstr "دسته‌بندی را نمایش بده."
 
-#: inc/customizer.php:132
+#: inc/customizer.php:131
 msgid "Post Information"
 msgstr "اطالاعات نوشته"
 
-#: inc/customizer.php:134
+#: inc/customizer.php:133
 msgid "Author and Date"
 msgstr "نویسنده و تاریخ"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:134
 msgid "Only Author"
 msgstr "فقط نویسنده"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:135
 msgid "Only Date"
 msgstr "فقط تاریخ"
 
-#: inc/customizer.php:137
+#: inc/customizer.php:136
 msgid "None"
 msgstr "هیچکدام"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:146
 msgid "Display comment's count."
 msgstr "تعداد دیدگاه‌ها را نمایش بده."
 
-#: inc/customizer.php:154
+#: inc/customizer.php:153
 msgid "More"
 msgstr "ادامه"
 
-#: inc/customizer.php:156
+#: inc/customizer.php:155
 msgid "Read More Text"
 msgstr "متن ادامه مطلب"
 
-#: inc/customizer.php:174
+#: inc/customizer.php:164
+msgid "Display read more button."
+msgstr "دکمه ادامه مطلب را نمایش بده."
+
+#: inc/customizer.php:173
 msgid "Display excerpt (abstract)."
 msgstr "خلاصه را نمایش بده."
 
-#: inc/customizer.php:183
+#: inc/customizer.php:182
 msgid "Display tags."
 msgstr "برچسب‌ها را نمایش بده."
 
-#: inc/customizer.php:192
+#: inc/customizer.php:191
 msgid "Display back-to-top button."
 msgstr "دکمه بازگشت به بالا را نمایش بده."
 
-#: inc/customizer.php:201
+#: inc/customizer.php:200
 msgid "Footer Bottom Text"
 msgstr "متن پایین پابرگ"
 
-#: inc/customizer.php:202
-msgid ""
-"Note: If you wish to add other content types, use Widgets section instead."
-msgstr ""
-"توجه: اگر می‌خواهید محتوای دیگری قرار دهید، از بخش ابزارک‌ها استفاده کنید."
+#: inc/customizer.php:201
+msgid "Note: If you wish to add other content types, use Widgets section instead."
+msgstr "توجه: اگر می‌خواهید محتوای دیگری قرار دهید، از بخش ابزارک‌ها استفاده کنید."
 
-#: inc/customizer.php:211
+#: inc/customizer.php:210
 msgid "Rmove built-in emojis."
 msgstr "شکلک‌های پیشفرض را حذف کن."
 
-#: inc/customizer.php:212
+#: inc/customizer.php:211
 msgid "Activate to increase speed and performance."
 msgstr "برای افزایش سرعت و کارایی فعال کنید."
 
@@ -305,13 +300,17 @@ msgstr "پابرگ - راست"
 msgid "Footer - Bottom"
 msgstr "پابرگ - پایین"
 
-#: search.php:7
-msgid "results for:"
-msgstr "نتیجه برای:"
+#: search.php:10
+msgid "results found."
+msgstr "مورد پیدا شد."
 
 #: searchform.php:2
 msgid "Search..."
 msgstr "جستجو..."
+
+#: searchform.php:3
+msgid "Search"
+msgstr "جستجو"
 
 #: single.php:12 template-parts/content/posts.php:25
 msgid "By"

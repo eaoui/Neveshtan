@@ -70,8 +70,7 @@ function neveshtan_customize_register($wp_customize)
         'mod' => 'theme_mod',
         'default' => true,
         'type' => 'checkbox',
-        'label' => __('Display user panel in hamburger menu.', 'neveshtan'),
-        'description' => __('Guest: Login + Register<br>User: Profile + Logout<br>Admin: Profile + Dashboard + Logout', 'nevshtan')
+        'label' => __('Display user panel in hamburger menu.', 'neveshtan')
     );
 
     $themesetting[] = array(
@@ -162,7 +161,7 @@ function neveshtan_customize_register($wp_customize)
         'mod' => 'theme_mod',
         'default' => true,
         'type' => 'checkbox',
-        'label' => 'Display read more button.'
+        'label' => __('Display read more button.', 'neveshtan')
     );
 
     $themesetting[] = array(
