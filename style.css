@@ -1062,7 +1062,7 @@ article.page .bottom {
         margin: 24px;
     }
     main article.sticky {
-        grid-column: span 3;
+        grid-column: span 2;
     }
     main article {
         opacity: 0.95;
