@@ -21,15 +21,15 @@
                     </a>
                     <div class="post-info">
                         <?php
-                        if (get_option('card_post_info') === 'both') {
+                        if (get_option('card_post_info') === 'author') {
+                            echo get_the_author_posts_link();
+                        } elseif (get_option('card_post_info') === 'date') {
+                            echo get_the_date();
+                        } else {
                             esc_html_e('By', 'neveshtan');
                             echo ' ' . get_the_author_posts_link() . ' ';
                             esc_html_e('in', 'neveshtan');
                             echo ' ' . get_the_date();
-                        } elseif (get_option('card_post_info') === 'author') {
-                            echo get_the_author_posts_link();
-                        } elseif (get_option('card_post_info') === 'date') {
-                            echo get_the_date();
                         }
                         ?>
                     </div>
