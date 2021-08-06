@@ -338,6 +338,27 @@ header .custom-logo {
     color: #000;
 }
 
+.nav-drawer {
+    scrollbar-width: thin;
+    scrollbar-color: #CFD8DC #fafafa;
+}
+
+.nav-drawer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav-drawer::-webkit-scrollbar-track {
+    background: #fafafa;
+}
+
+.nav-drawer::-webkit-scrollbar-thumb {
+    background: #CFD8DC;
+}
+
+.nav-drawer::-webkit-scrollbar-thumb:hover {
+    background: #B0BEC5;
+}
+
 .menu-item-has-children a:not(:last-child),
 .page_item_has_children a:not(:last-child) {
     background-image: url("assets/images/expand.svg");
