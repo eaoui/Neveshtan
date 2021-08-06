@@ -962,6 +962,15 @@ footer article footer {
     color: #616161;
 }
 
+article.page {
+    padding: unset;
+    margin: unset;
+}
+
+article.page .bottom {
+    display: none;
+}
+
 @media only screen and (min-width: 400px) {
     html {
         font-size: 15px;
