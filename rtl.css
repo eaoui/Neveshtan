@@ -154,6 +154,16 @@ footer .backtotop {
     margin-right: unset;
 }
 
+.search-result form input[type="search"] {
+    padding-left: unset;
+    padding-right: 16px;
+}
+
+.search-result form input[type="submit"] {
+    margin-right: -100px;
+    margin-left: unset;
+}
+
 @media only screen and (min-width: 960px) {
     header #menu {
         margin-left: 24px;
