@@ -9,11 +9,7 @@
 
     <?php
     // Color Scheme
-    if (get_option('color_scheme') === 'blue_grey') {
-        $midcolor = '#607d8b';
-        $darkcolor = '#263238';
-        $lightcolor = '#cfd8dc';
-    } elseif (get_option('color_scheme') === 'brown') {
+    if (get_option('color_scheme') === 'brown') {
         $midcolor = '#795548';
         $darkcolor = '#3e2723';
         $lightcolor = '#d7ccc8';
@@ -49,6 +45,10 @@
         $midcolor = '#f44336';
         $darkcolor = '#b71c1c';
         $lightcolor = '#ffcdd2';
+    } else {
+        $midcolor = '#607d8b';
+        $darkcolor = '#263238';
+        $lightcolor = '#cfd8dc';
     }
 
     if (get_option('header_position') === 'sticky') {
