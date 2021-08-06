@@ -21,7 +21,8 @@
                     </a>
                     <div class="post-info">
                         <?php
-                        if (get_option('card_post_info') === 'author') {
+                        if (get_option('card_post_info') === 'none') {
+                        } elseif (get_option('card_post_info') === 'author') {
                             echo get_the_author_posts_link();
                         } elseif (get_option('card_post_info') === 'date') {
                             echo get_the_date();
