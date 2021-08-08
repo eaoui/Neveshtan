@@ -241,9 +241,10 @@ header .custom-logo {
 .nav-drawer {
     visibility: hidden;
     position: fixed;
-    top: 48px;
+    top: 0;
     left: 0;
-    height: calc(100% - 48px);
+    padding-top: 48px;
+    height: 100%;
     background-color: #fafafa;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1037,8 +1038,8 @@ article.page .bottom {
         margin-right: 24px;
     }
     .nav-drawer {
-        top: 64px;
-        height: calc(100% - 64px);
+        padding-top: 64px;
+        height: 100%;
     }
     .search-box {
         width: 280px;
