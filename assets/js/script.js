@@ -26,7 +26,10 @@ function toggleMenuIcon() {
         close_graph.style.display = 'none';
     }
 
-    toggleBodyScrollability();
+
+    if (window.screen.width < 720) {
+        toggleBodyScrollability();
+    }
 }
 
 
