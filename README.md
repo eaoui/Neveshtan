@@ -20,11 +20,9 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 7. Hit **install Now** button.
 8. If successfully installed, hit **activate**.
 
-Done!
-
 ## Updating
-1. **[install](#installing)** and **activate** the newer release.
-2. **Delete** the older release.
+1. **[Install](#installing)** the newer release.
+2. Hit **Replace current with uploaded**.
 
 ## Contributing
 
