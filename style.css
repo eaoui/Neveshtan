@@ -285,6 +285,7 @@ header .custom-logo {
 .nav-drawer ul li {
     display: block;
     padding: 0 12px;
+    margin-top: 4px;
 }
 
 .nav-drawer ul li img {
