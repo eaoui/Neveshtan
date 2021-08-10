@@ -277,9 +277,10 @@ header .custom-logo {
     border-bottom: 1px solid #e0e0e0;
 }
 
-.nav-drawer ul .current-menu-item a,
-.nav-drawer ul .current_page_item a {
+.nav-drawer ul .current-menu-item,
+.nav-drawer ul .current_page_item {
     opacity: 0.5;
+    background-color: #f5f5f5;
 }
 
 .nav-drawer ul li {
