@@ -102,14 +102,14 @@ if (typeof(posts) != 'undefined' && posts != null) {
 }
 
 
-let expandableMenuItems = document.querySelectorAll('.menu-item-has-children, .page_item_has_children');
+let expandableMenuItems = document.querySelectorAll('.menu-item-has-children > a, .page_item_has_children > a');
 
 for (let i = 0; i < expandableMenuItems.length; i++) {
     expandableMenuItems[i].addEventListener('click', function(event) {
 
         event.preventDefault();
 
-        let subMenu = this.lastElementChild;
+        let subMenu = this.nextElementSibling;
 
         function toggleSubMenu() {
             subMenu.classList.toggle('display-block');
