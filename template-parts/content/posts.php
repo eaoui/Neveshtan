@@ -61,6 +61,6 @@
     <?php endif; ?>
 </main>
 <div class="pagination container">
-    <div id="older-posts"><?php next_posts_link(__('Next', 'neveshtan')); ?></div>
-    <div id="newer-posts"><?php previous_posts_link(__('Previous', 'neveshtan')); ?></div>
+    <div class="op" id="older-posts"><?php next_posts_link(__('Next', 'neveshtan')); ?></div>
+    <div class="op" id="newer-posts"><?php previous_posts_link(__('Previous', 'neveshtan')); ?></div>
 </div>

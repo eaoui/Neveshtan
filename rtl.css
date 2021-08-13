@@ -110,6 +110,10 @@ main article .bottom .comment-count svg {
     float: left;
 }
 
+.pagination #older-posts {
+    float: right;
+}
+
 article .post-categories {
     text-align: left;
 }
