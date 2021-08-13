@@ -343,7 +343,7 @@ header .custom-logo {
 
 .nav-drawer {
     scrollbar-width: thin;
-    scrollbar-color: #CFD8DC #fafafa;
+    scrollbar-color: #E0E0E0 #fafafa;
 }
 
 .nav-drawer::-webkit-scrollbar {
@@ -355,11 +355,11 @@ header .custom-logo {
 }
 
 .nav-drawer::-webkit-scrollbar-thumb {
-    background: #CFD8DC;
+    background: #E0E0E0;
 }
 
 .nav-drawer::-webkit-scrollbar-thumb:hover {
-    background: #B0BEC5;
+    background: #BDBDBD;
 }
 
 .menu-item-has-children a:not(:last-child),
