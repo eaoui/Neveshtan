@@ -119,7 +119,7 @@ for (let i = 0; i < expandableMenuItems.length; i++) {
             expandableMenuItems[i].classList.toggle('add-collapse-icon');
         }
 
-        subMenu.onclick = function() {
+        this.firstChild.onclick = function() {
             toggleSubMenu();
             toggleDropdownIcon();
         };
