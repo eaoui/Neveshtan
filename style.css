@@ -578,6 +578,7 @@ main article h3 {
     font-size: 1.3rem;
     color: #000;
     font-weight: normal;
+    line-height: 1.6;
 }
 
 main article h3:hover,
