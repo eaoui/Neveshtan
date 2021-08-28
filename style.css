@@ -433,7 +433,6 @@ header .custom-logo {
 .nav-tabs li {
     display: inline-block;
     margin: 0 4px;
-    padding: 0 8px;
     font-size: 0.9rem;
     min-width: 64px;
     -o-transition: all 0.3s;
@@ -1102,6 +1101,10 @@ article.page .bottom {
     .search-box form input[type="search"]:focus,
     .search-box form input[type="search"]:active {
         opacity: 1;
+    }
+
+    .nav-tabs li {
+        padding: 0 8px;
     }
 
     main {
