@@ -1,6 +1,10 @@
 # Neveshtan
 A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 
+
+### [[**PREVIEW**]](https://eaoui.github.io/neveshtanpreview)
+
+
 ## Features
 * Responsive: Mobile(-first), tablet, desktop, large desktop
 * Search Engine Optimized
@@ -29,10 +33,3 @@ A blog theme developed to be minimal, fast and standard for WordPress bloggers.
 Neveshtan is open to any form of contribution.
 
 Make sure to take a look at [the wiki page](https://github.com/eaoui/Neveshtan/wiki).
-
-
-## Demo
-
-### Persian
-
-* [Information Science Blog](https://info-sci.ir)
