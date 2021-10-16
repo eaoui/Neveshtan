@@ -64,7 +64,7 @@ if (navigator.appVersion.indexOf('Edge') != -1) {
 }
 
 let posts = document.getElementsByClassName('posts')[0];
-if (typeof(posts) != 'undefined' && posts != null) {
+if (typeof (posts) != 'undefined' && posts != null) {
 
     function resizeMasonryItem(item) {
         let rowGap = parseInt(window.getComputedStyle(posts).getPropertyValue('grid-row-gap')),
@@ -105,7 +105,7 @@ if (typeof(posts) != 'undefined' && posts != null) {
 let expandableMenuItems = document.querySelectorAll('.menu-item-has-children > a, .page_item_has_children > a');
 
 for (let i = 0; i < expandableMenuItems.length; i++) {
-    expandableMenuItems[i].addEventListener('click', function(event) {
+    expandableMenuItems[i].addEventListener('click', function (event) {
 
         event.preventDefault();
 
@@ -119,7 +119,7 @@ for (let i = 0; i < expandableMenuItems.length; i++) {
             expandableMenuItems[i].classList.toggle('add-collapse-icon');
         }
 
-        this.firstChild.onclick = function() {
+        this.firstChild.onclick = function () {
             toggleSubMenu();
             toggleDropdownIcon();
         };
